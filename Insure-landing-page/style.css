@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 100%;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    height: 4em;
+    text-transform: uppercase;
+}
+
+.logo {
+    position: absolute;
+    width: 8em;
+    height: 1em;
+    top: 30%;
+    bottom: 30%;
+    left: 7em;
+}
+
+.hamb {
+    visibility: hidden;
+}
+
+.unorder {
+    visibility: visible;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    right: 25%;
+    top: 10%;
+    bottom: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18em;
+    height: auto;
+}
+
+.view-plans {
+    visibility: visible;
+    position: absolute;
+    width: 13%;
+    cursor: pointer;
+    top: 25%;
+    bottom: 25%;
+    text-transform: uppercase;
+    height: auto;
+    right: 5%;
+    background-color: hsl(0, 0%, 98%);
+    border: 2px solid #000;
+}
+
+.header {
+    color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 30em;
+    position: relative;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.image1 {
+    position: absolute;
+    top: 15%;
+    right: 8em;
+    width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+.hr1 {
+    position: absolute;
+    left: 10%;
+    top: 4em;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+}
+
+.heading {
+    margin: 10%;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: .1%;
+    font-size: 3em;
+}
+
+.about {
+    line-height: 1;
+    position: absolute;
+    width: 35%;
+    height: auto;
+    left: 10%;
+    top: 11em;
+    font-size: 1.5em;
+}
+
+.view-plans2 {
+    position: absolute;
+    width: 7em;
+    height: auto;
+    padding: 5px;
+    left: 10%;
+    bottom: 2em;
+    cursor: pointer;
+    font-size: 1em;
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+}
+
+.left-patt {
+    visibility: visible;
+    position: absolute;
+    transform: translateY(375px);
+    z-index: 3 !important;
+    top: 0;
+    left: 0;
+}
+
+.right-patt {
+    visibility: visible;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+
+/* ----  header ends  ---- */
+
+
+/* ----  header ends  ---- */
+
+
+/* ----  header ends  ---- */
+
+
+/* ----  header ends  ---- */
+
+.main {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.heading2 {
+    margin: 10%;
+    font-size: 3.5em;
+    color: hsl(270, 9%, 17%);
+}
+
+.three-contents {
+    width: 100%;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content-span {
+    display: block;
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.contents {
+    width: 30%
+}
+
+.content-para {
+    letter-spacing: 1px;
+}
+
+.find-out {
+    background-image: url(mid-pattern.svg);
+    background-position-x: right;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    margin: 2em auto;
+    color: hsl(0, 0%, 98%);
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mid-patt {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.find {
+    width: 70%;
+}
+
+.we-work {
+    color: hsl(0, 0%, 98%);
+    background-color: transparent;
+    width: 20%;
+    height: 3em;
+    border: 2px solid hsl(0, 0%, 98%);
+    cursor: pointer;
+}
+
+.hr2 {
+    visibility: visible;
+    margin: 10%;
+    color: hsl(273, 4%, 51%);
+}
+
+
+/* ------ F O O T E R -------- */
+
+
+/* ------ F O O T E R -------- */
+
+
+/* ------ F O O T E R -------- */
+
+
+/* ------ F O O T E R -------- */
+
+footer {
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.footer-patt {
+    visibility: visible;
+    float: left;
+    z-index: 1;
+    background-repeat: no-repeat;
+    rotate: -90deg;
+}
+
+.footer-img {
+    position: absolute;
+    left: 7em;
+    top: 2em;
+}
+
+.iconns {
+    display: inline-block;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.div-iconns {
+    top: 2em;
+    width: 10em;
+    height: auto;
+    position: absolute;
+    display: flex;
+    right: 5em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-hr {
+    position: absolute;
+    display: block;
+    margin: 1em auto;
+    top: 5em;
+    left: 10%;
+    width: 85%
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-anchor {
+    color: #000;
+    margin: 5px 0;
+}
+
+.foot-span {
+    color: hsl(273, 4%, 51%);
+    margin: 0 0 1em 0;
+}
+
+.last {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8em;
+    border: 1px aolid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+/* ------ hovers ------- */
+
+
+/* ------ hovers ------- */
+
+
+/* ------ hovers ------- */
+
+
+/* ------ hovers ------- */
+
+.div-iconns>.iconns:hover {
+    opacity: 1;
+}
+
+.we-work:hover,
+.view-plans2:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: #000;
+    transition: .4s;
+}
+
+.view-plans:hover {
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    transition: .4s;
+}
+
+a:hover {
+    color: #000;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.footer-anchor:hover {
+    text-decoration: underline;
+}
+
+@media all and (max-width:900px) and (min-width:700px) {
+    .navigation {
+        height: 3.5em;
+    }
+    .logo {
+        width: 7em;
+        height: 1em;
+        top: 35%;
+        left: 5em;
+    }
+    .hamb {
+        visibility: hidden;
+    }
+    .unorder {
+        right: 30%;
+        width: 15em;
+    }
+    .main {
+        padding: 3em;
+    }
+    .view-plans {
+        width: 13%;
+        top: 25%;
+        bottom: 25%;
+        right: 10%;
+        font-size: .8em;
+    }
+    .about {
+        top: 18em;
+        width: 30%;
+        font-size: 1em;
+        line-height: 1.2;
+    }
+}
+
+@media all and (max-width:699px) {
+    .navigation {
+        height: 3.5em;
+    }
+    .logo {
+        width: 5em;
+        height: 1em;
+        left: 4em;
+    }
+    .hamb {
+        visibility: hidden;
+    }
+    .unorder {
+        right: 25%;
+        width: 15em;
+    }
+    .view-plans {
+        width: 15%;
+        top: 25%;
+        bottom: 25%;
+        text-transform: uppercase;
+        height: auto;
+        right: 5%;
+    }
+    .image1 {
+        right: 3em;
+        width: 35%;
+    }
+    .header {
+        height: 80vh;
+        font-size: 2em;
+    }
+}
